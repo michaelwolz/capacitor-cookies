@@ -1,0 +1,13 @@
+{
+  "appId": "com.example.app",
+  "appName": "capacitor-cookies",
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false
+    },
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
