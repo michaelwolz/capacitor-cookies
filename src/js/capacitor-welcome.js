@@ -1,4 +1,3 @@
-import { SplashScreen } from "@capacitor/splash-screen";
 import { CapacitorCookies } from "@capacitor/core";
 
 const WEBHOOK_URL = "https://webhook.site/b6683c18-7643-43f2-ae18-8b654b853077";
@@ -8,8 +7,6 @@ window.customElements.define(
   class extends HTMLElement {
     constructor() {
       super();
-
-      SplashScreen.hide();
 
       const root = this.attachShadow({ mode: "open" });
 
